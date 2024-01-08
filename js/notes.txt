@@ -1,0 +1,38 @@
+
+// mainNavigation.forEach((singleNav, index) => {
+//   singleNav.addEventListener("click", (e) => {
+//     const isAlreadyOpen = navbarlist[index].classList.contains("show");
+//     e.stopPropagation();
+
+//     // // Close all navbarlists when clicking outside the current dropdown
+//     // if (isAlreadyOpen) {
+//     //   navbarlist.forEach((singlelist) => {
+//     //     singlelist.classList.remove("show");
+//     //   });
+//     // } else {
+//     //   // Open the clicked dropdown
+//     //   navbarlist[index].classList.add("show");
+//     // }
+
+//     if (e.target === isAlreadyOpen) {
+//       console.log("closed");
+//       navbarlist.forEach((singlelist) => {
+//         singlelist.classList.remove("show");
+//       });
+//     }
+//     if (!isAlreadyOpen) {
+//       navbarlist[index].classList.add("show");
+//     }
+//   });
+// });
+
+// document.addEventListener("click", (e) => {
+//   // Check if the clicked element is outside the navbarlist
+//   const isOutsideNavbarlist = !e.target.closest(".dropdown-grouplist");
+
+//   if (isOutsideNavbarlist) {
+//     navbarlist.forEach((singlelist) => {
+//       singlelist.classList.remove("show");
+//     });
+//   }
+// });
